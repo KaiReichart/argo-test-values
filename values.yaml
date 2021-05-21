@@ -1,1 +1,10 @@
 replicaCount: 5
+
+primary:
+  persistence:
+    enabled: false
+
+secondary:
+  replicaCount: 1
+  persistence:
+    enabled: false
