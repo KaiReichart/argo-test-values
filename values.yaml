@@ -1,5 +1,7 @@
 replicaCount: 5
 
+architecture: replication
+
 primary:
   persistence:
     enabled: false
